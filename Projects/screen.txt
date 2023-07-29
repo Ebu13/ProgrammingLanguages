@@ -1,0 +1,16 @@
+class Animal {
+  public:
+    int age;
+    float bi;
+    void animalSound() {}
+};
+class Pig : public Animal {
+  public:
+    double kg;
+    void animalSound() {}
+};
+class Dog : public Animal {
+  public:
+    double u;
+    void animalSound() {}
+};
